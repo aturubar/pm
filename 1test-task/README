@@ -1,0 +1,9 @@
+create 3 VM in vagrant, which will be started with
+vagrant up chef
+vagrant up pgm
+vagrant up pgs
+
+1. Chef - chef server, with recipes for installing postgresql-master and postgresql-slave
+2. pgm and pgs are gre master and slave
+3. auth in gre with password.
+4. test data take from here
