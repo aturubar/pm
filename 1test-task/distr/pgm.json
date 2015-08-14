@@ -1,0 +1,16 @@
+### Posgtress master role
+{
+  "name": "pgm",
+  "default_attributes":{
+    "node":{
+     "gre":{
+     "hostname": "pgm.dom.com"
+     }
+   }
+  },
+  "json_class": "Chef::Role",
+  "run_list": ['recipe[gre::master]'],
+  "description": "gre master role",
+  "override_attributes":{
+  }
+}
